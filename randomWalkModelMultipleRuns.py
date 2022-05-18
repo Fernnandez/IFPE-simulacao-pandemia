@@ -222,8 +222,8 @@ class RandomWalkModel:
 		#img.show()
 
 numberOfRuns = 1
-gridSize = 102
-numberOfGenerations = 100
+gridSize = 1020
+numberOfGenerations = 1000
 
 for i in range(0, numberOfRuns):
 	model = RandomWalkModel(gridSize)
